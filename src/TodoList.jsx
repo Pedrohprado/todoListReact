@@ -1,6 +1,5 @@
 import { TodoItem } from "./todoItem"
 
-
 export function TodoList({ todos, toggleTodo, deleteTodo }) {
     return (
         <ul className="list">
@@ -13,7 +12,6 @@ export function TodoList({ todos, toggleTodo, deleteTodo }) {
                         toggleTodo={toggleTodo}
                         deleteTodo={deleteTodo}
                     />
-                    
                 )
             })}
         </ul>
