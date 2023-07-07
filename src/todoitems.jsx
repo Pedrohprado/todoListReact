@@ -14,7 +14,7 @@ export function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
                 onClick={() => deleteTodo(id)}
                 className="btn-danger"
             >
-                <img src="imgs\bin.png" alt="delete to do" />
+                <img src="public\bin.png" alt="delete to do" />
             </button>
         </li>
     )
