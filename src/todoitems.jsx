@@ -7,13 +7,14 @@ export function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
                     checked={completed}
                     onChange={e => toggleTodo(id, e.target.checked)}
                 />
-                {title}
+                <p> {title}</p>
+               
             </label>
             <button
                 onClick={() => deleteTodo(id)}
-                className="btn btn-danger"
+                className="btn-danger"
             >
-                Delete
+                <img src="imgs\bin.png" alt="delete to do" />
             </button>
         </li>
     )

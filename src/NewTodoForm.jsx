@@ -16,16 +16,16 @@ export function NewTodoForm({ onSubmit }) {
     return (
         <form onSubmit={handlerSubmit} action="" className="new-item-form">
             <div className="form-row">
-                <label htmlFor="item">New Item</label>
                 <input
                     value={newItem}
                     onChange={e => setNewItem(e.target.value)}
                     type="text"
                     id="item"
                 />
+                <button className="btn-add">+</button>
+
             </div>
 
-            <button className="btn">ADD</button>
         </form>
     )
 }
