@@ -12,6 +12,18 @@ body {
   margin: 0 auto;
 }
 
+h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: center;
+}
+
+h4 img {
+  height: 20px;
+  width: 20px;
+}
+
 .todoAll {
   border-radius: 20px;
   background-color: white;
